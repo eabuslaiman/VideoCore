@@ -87,8 +87,9 @@ namespace videocore
                 pp << *it << "/";
             }
         }
-        m_playPath = pp.str();
-        m_playPath.pop_back();
+        /** m_playPath = pp.str();
+        m_playPath.pop_back(); **/
+        m_playPath = "";
         
         connectServer();
     }
